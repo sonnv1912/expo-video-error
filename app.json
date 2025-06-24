@@ -1,5 +1,13 @@
 {
   "expo": {
-    "plugins": ["expo-video"]
+    "name": "my-app",
+    "slug": "my-app",
+    "plugins": ["expo-video"],
+    "android": {
+      "package": "com.chuazz.myapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.chuazz.myapp"
+    }
   }
 }
